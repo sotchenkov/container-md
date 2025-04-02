@@ -1,6 +1,8 @@
-# container-md - Docker health monitor that automatically restarts and notifies about unhealthy containers
+# container-md
 
-Container-md is a simple yet effective Go utility designed to monitor the health status of your running Docker containers. When a container becomes `unhealthy`, container-md takes action: it notifies you via Telegram with recent logs, attempts to restart the container, and reports back on the success or failure of the recovery attempt.
+[Readme на русском](https://github.com/sotchenkov/container-md/blob/main/README.ru.md)
+
+Container-md is a simple Go utility designed to monitor the health status of your running Docker containers. When a container becomes `unhealthy`, container-md takes action: it notifies you via Telegram with recent logs, attempts to restart the container, and reports back on the success or failure of the recovery attempt.
 
 ## Features
 
